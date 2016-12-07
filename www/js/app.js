@@ -20,6 +20,9 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       StatusBar.styleDefault();
     }
   });
+  
+  //console.log("config app.js");
+  
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -60,7 +63,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })
 
   .state('app.single', {
-    url: '/playlists/:playlistId',
+    url: '/playlists/:id',
     views: {
       'menuContent': {
         templateUrl: 'templates/playlist.html',
@@ -70,4 +73,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
+  //console.log("config app.js");
 });

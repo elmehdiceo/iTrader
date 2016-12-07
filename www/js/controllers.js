@@ -39,6 +39,9 @@ angular.module('starter.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
+  
+  //console.log("app ctrl");
+  
 })
 
 .controller('PlaylistsCtrl', function($scope) {
@@ -50,7 +53,14 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
+  
+  //console.log("playlists ctrl");
+  
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+  
+   //console.log($stateParams.id);
+   $scope.dynamicViewTitleFromStateParam = $stateParams.id;
+   //console.log("playlist ctrl");
 });
