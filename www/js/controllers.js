@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('iTrader.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -44,7 +44,7 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('PlaylistsCtrl', function($scope) {
+.controller('MyStocksCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
@@ -58,7 +58,7 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('StockCtrl', function($scope, $stateParams) {
   
    //console.log($stateParams.id);
    $scope.dynamicViewTitleFromStateParam = $stateParams.id;

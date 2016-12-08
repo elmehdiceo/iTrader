@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.itrader133901" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>iTrader</name>
   <description>
-        An Ionic Framework and Cordova project.
+        iTrader App templates.
     </description>
-  <author email="you@example.com" href="http://example.com/">
-      Your Name Here
+  <author email="elmehdimobi@gmail.com" href="http://www.elmehdi.mobi/">
+      El Mehdi LAIDOUNI
     </author>
   <content src="index.html"/>
   <access origin="*"/>
